@@ -1,0 +1,41 @@
+{
+  "name": "Shellinabox",
+  "id": "shellinabox",
+  "description": {
+    "en": "Shell from a web page",
+    "fr": "Terminal web"
+  },
+  "developer": {
+    "name": "lunarok",
+    "email": "cedric@wayang.fr",
+    "url": "http://www.wayang.fr"
+  },
+  "multi_instance": "false",
+  "arguments": {
+    "install": [
+      {
+        "name": "domain",
+        "ask": {
+          "en": "Choose a domain for Shellinabox"
+        },
+        "example": "domain.org"
+      },
+      {
+        "name": "path",
+        "ask": {
+          "en": "Choose a path for Shellinabox"
+        },
+        "example": "/shell",
+        "default": "/shell"
+      },
+      {
+        "name": "server",
+        "ask": {
+          "en": "Choose IP where Shellinabox is installed"
+        },
+        "example": "127.0.0.1",
+        "default": "127.0.0.1"
+      }
+    ]
+  }
+}
